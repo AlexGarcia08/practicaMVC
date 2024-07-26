@@ -3,6 +3,7 @@ import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv'
 import { test } from "./backend/controllers/user.controller.js";
+import { test2 } from "./backend/controllers/admin.controller.js";
 
 dotenv.config();
 
@@ -23,5 +24,5 @@ app.listen(4000, ()=>{
 
 
 test()
-
+test2()
     
